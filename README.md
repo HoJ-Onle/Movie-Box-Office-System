@@ -2,26 +2,34 @@
 
 ## 软件工程13组
 - - -
-|Number| Id | Name | English | User | 
-| - | - | :-: | - | - |
-| 1 | SZ160110224 | 姜昊 | jianghao | `JawnHoan` | 
+|Number| Id | Name | English | Tasks |
+| :-: | :-: | :-: | :-: | - |
+| 1 | SZ160110224 | 姜昊 | jianghao | 
 | 2 | SZ160110231 | 但远琦 | danyuanqi | 
 | 3 | SZ160110214 | 陈润泽 | chenrunze |
 | 4 | SZ160110216 | 赵昕玥 | zhaoxinyue | 
-| 5 | SZ160110205 | 许浚伟 | xujunwei |
+| 5 | SZ160110205 | 许浚伟 | xujunwei | 服务器管理、数据库管理、可视化业务逻辑后台模块实现
 - - -
 
 ## 项目的依赖环境、使用说明
 - - -
 ### Server端
-
+#### 硬件配置
 |Item| Request |
 | - | - |
 | CPU核数 | 建议选择可以独占一核的CPU使用 |
 | 系统位数 | 建议64位以上系统 |
 | 操作系统要求 | 建议选用64位Linux系统 |
 | 内存大小 | 建议内存大小在1GB以上 |
-| 硬盘空间 | 建议40 GB以上 |
+| 硬盘空间 | 建议40GB以上 |
+
+#### 软件配置
+|Item| Request |
+| - | - |
+| Python | 建议使用Python3.6以上的版本 |
+| PHP | 建议使用PHP7.0+版本 |
+| 数据库 | 建议使用MySQL5.7及更新的版本 |
+
 
 ### Client端
 
@@ -36,11 +44,12 @@
 
 ## 实现功能与实现技术
 - - -
-|Number| Part | Tech | Remark |
-| - | :-: | - | - |
-| 1 | SZ160110224 | 姜昊 | jianghao | `JawnHoan` | 
-| 2 | SZ160110231 | 但远琦 | danyuanqi | 
-| 3 | 数据可视化 | 使用了 `echarts.js` 插件 | 基础功能
-| 4 | SZ160110216 | 赵昕玥 | zhaoxinyue | 
-| 5 | SZ160110205 | 许浚伟 | xujunwei |
+### 基本功能
+|Number| Module | Implements | Remark | Files
+| :-: | :-: | - | :-: | - |
+| 1 | 登录 |  | 基础功能 |  | 
+| 2 | 注册 |  | 基础功能 |  |
+| 3 | 数据可视化 | 使用了 `echarts.js` 插件 | 基础功能 | 前端： </br>后台： jawnho.xyz/ControllerPost.php, jawnho.xyz/service/model.php |
+| 4 | 图片存储 | 服务器使用MySQL无重复地存储图片数据 | 附加功能 | 前端： </br>后台： jawnho.xyz/ControllerPost.php, jawnho.xyz/service/model.php: imageStore |
+| 5 | 生成报表 |  | 基础功能 | 前端：</br>后台： jawnho.xyz/ControllerGet.php, jawnho.xyz/service/model.php: imageLoad |
 - - -
