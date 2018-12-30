@@ -7,7 +7,7 @@
 | 1 | SZ160110224 | 姜昊 | jianghao |  |
 | 2 | SZ160110231 | 但远琦 | danyuanqi |  |
 | 3 | SZ160110214 | 陈润泽 | chenrunze | 可视化相关界面、前端绘图、可视化&用户图表库数据交互 |
-| 4 | SZ160110216 | 赵昕玥 | zhaoxinyue |  |
+| 4 | SZ160110216 | 赵昕玥 | zhaoxinyue | 主页、登录界面、导航栏、报表图片导出为pdf |
 | 5 | SZ160110205 | 许浚伟 | xujunwei | 服务器管理、数据库管理、可视化业务逻辑后台模块实现 |
 - - -
 
@@ -46,11 +46,11 @@
 - - -
 |Number| Module | Implements | Remark | Files
 | :-: | :-: | - | :-: | - |
-| 1 | 登录 |  | 基础功能 |  | 
-| 2 | 注册 |  | 基础功能 |  |
+| 1 | 登录 |  | 基础功能 | 前端： jawnho.xyz/log.html 后台： | 
+| 2 | 注册 |  | 基础功能 | 前端： jawnho.xyz/register.html 后台： |
 | 3 | 电影数据可视化 | Ajax异步请求数据, 前端使用`echarts.js` 插件绘图 | 基础功能 | 前端： jawnho.xyz/vis*.html, jawnho.xyz/style/js/paint_charts.js </br>后台： jawnho.xyz/ControllerPost.php, jawnho.xyz/service/model.php |
 | 4 | 图表存储 | 前端进行base64编码, 服务器使用MySQL无重复地存储图片数据 | 附加功能 | 前端： jawnho.xyz/vis*.html </br>后台： jawnho.xyz/ControllerPost.php, jawnho.xyz/service/model.php: imageStore |
 | 5 | 用户图表库展示 | Ajax异步请求图片base64编码，前端动态展示 | 附加功能 | 前端： jawnho.xyz/report.html </br>后台： jawnho.xyz/ControllerGet.php, jawnho.xyz/service/model.php: imageLoad |
 | 6 | 下载图片 | 使用 `echarts.js` 插件生成 | 基础功能 | 前端： jawnho.xyz/vis*.html |
-| 7 | 生成报表 |  | 基础功能 |  |
+| 7 | 生成报表 | 使用 `jsPdf.js` 插件生成 | 基础功能 | 前端： jawnho.xyz/report.html 后台： |
 - - -
