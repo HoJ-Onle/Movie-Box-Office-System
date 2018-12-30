@@ -48,9 +48,9 @@
 | :-: | :-: | - | :-: | - |
 | 1 | 登录 |  | 基础功能 |  | 
 | 2 | 注册 |  | 基础功能 |  |
-| 3 | 电影数据可视化 | ajax异步请求数据，`echarts.js` 插件绘图 | 基础功能 | 前端： jawnho.xyz/vis*.html, jawnho.xyz/style/js/paint_charts.js </br>后台： jawnho.xyz/ControllerPost.php, jawnho.xyz/service/model.php |
-| 4 | 图表存储 | 前端进行base64编码，服务器使用MySQL无重复地存储图片数据 | 附加功能 | 前端： jawnho.xyz/vis*.html </br>后台： jawnho.xyz/ControllerPost.php, jawnho.xyz/service/model.php: imageStore |
-| 5 | 用户图表库展示 | ajax异步请求图片base64编码，前端动态展示 | 附加功能 | 前端： jawnho.xyz/report.html </br>后台： jawnho.xyz/ControllerGet.php, jawnho.xyz/service/model.php: imageLoad |
+| 3 | 电影数据可视化 | Ajax异步请求数据, 前端使用`echarts.js` 插件绘图 | 基础功能 | 前端： jawnho.xyz/vis*.html, jawnho.xyz/style/js/paint_charts.js </br>后台： jawnho.xyz/ControllerPost.php, jawnho.xyz/service/model.php |
+| 4 | 图表存储 | 前端进行base64编码, 服务器使用MySQL无重复地存储图片数据 | 附加功能 | 前端： jawnho.xyz/vis*.html </br>后台： jawnho.xyz/ControllerPost.php, jawnho.xyz/service/model.php: imageStore |
+| 5 | 用户图表库展示 | Ajax异步请求图片base64编码，前端动态展示 | 附加功能 | 前端： jawnho.xyz/report.html </br>后台： jawnho.xyz/ControllerGet.php, jawnho.xyz/service/model.php: imageLoad |
 | 6 | 下载图片 | 使用 `echarts.js` 插件生成 | 基础功能 | 前端： jawnho.xyz/vis*.html |
 | 7 | 生成报表 |  | 基础功能 |  |
 - - -
