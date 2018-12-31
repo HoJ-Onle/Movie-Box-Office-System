@@ -2,6 +2,10 @@
 
 # 软件工程13组
 
+## [项目Demo(b站)](https://www.bilibili.com/video/av38423220)
+
+## 成员
+
 |Number| Id | Name | English | Tasks |
 | :-: | :-: | :-: | :-: | - |
 | 1 | SZ160110224 | 姜昊 | jianghao | 服务器系统、环境的调配、配置，数据库管理，实现数据库中数据与网页的连接使用，登录注册模块 |
