@@ -1,6 +1,4 @@
-![十三组](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1540476601004&di=1836db18b117c2fada5324c06d62d2de&imgtype=0&src=http%3A%2F%2Fp8.qhimg.com%2Fdmsmty%2F350_200_%2Ft01b59f3c80d947c82d.jpg)  
-
-# 软件工程13组
+# 电影票房系统
 
 ## [项目Demo(b站)](https://www.bilibili.com/video/av38423220)
 
